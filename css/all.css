@@ -1,0 +1,26 @@
+
+.color_orange{
+    color: #ed670f;
+}
+.color_white{
+    color:#ffffff;
+}
+.color_black{
+    color:#3e4949;
+}
+.bg_orange{
+    background: #ed670f;
+}
+.bg_blue{
+    background: #0068b7;
+}
+.bg_white{
+    background: #FFFFFF;
+}
+.bg_white_2{
+    background: #f8fbfe;
+}
+/**/
+.content{
+    height: 100%;
+}

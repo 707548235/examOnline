@@ -1,0 +1,41 @@
+@charset "utf-8";
+.head{
+    width: 100%;
+    height: 570px;
+    background: url("../img/exam_head.png") center no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 420px;
+}
+.register,.try{
+    font-size: 20px;
+    padding: 5px 15px;
+    border: 1px solid #ed670f;
+    margin: 0 5px;
+}
+.try{
+    background: rgba(237,104,15,0);
+}
+.middle{
+    width: 100%;
+    height: 770px;
+    background: url("../img/exam_middle.png") center no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 80px;
+}
+.exam_middle_need{
+    width: 100%;
+    height: 600px;
+    background: url("../img/exam_bg.png") center no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.exam_need_head{
+    margin-top: 0;
+    padding-top: 50px;
+}
+.underline{
+    padding-bottom: 10px;
+    border-bottom: 3px solid #ed670f;
+}
