@@ -5,6 +5,23 @@
     background: url("../img/connect_head.png") center no-repeat;
     background-size: cover;
 }
+.head_title_box{
+    height: 100%;
+    margin-left: 25%;
+    padding-top: 100px;
+}
+.head_title{
+    margin-bottom: 30px;
+}
+.head_title_en{
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+.head_dec{
+    position: relative;
+    font-size: 18px;
+    top: 120px;
+}
 .middle_content{
     margin-top: 50px;
     text-align: center;

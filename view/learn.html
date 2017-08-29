@@ -11,9 +11,24 @@
 </head>
 <body>
     <div class="container">
+        <nav class="nav_bar">
+            <ul class="nav_ul">
+                <li><a href="/examOnline/view/connect.html" class="nav_link">关于我们</a></li>
+                <li><a href="/examOnline/view/service.html" class="nav_link">服务</a></li>
+                <li class="dropdown_li"><a href="javascript:void(0);" class="nav_link drop_link">
+                    产品
+                </a>
+                    <ul class="project_menu bg_white">
+                        <li class=""><a class="color_black_2" href="/examOnline/view/exam.html">在线考试</a></li>
+                        <li class=""><a class="color_black_2" href="/examOnline/view/learn.html">在线学习</a></li>
+                    </ul>
+                </li>
+                <li><a href="/examOnline/index.html" class="nav_link">首页</a></li>
+            </ul>
+        </nav>
         <div class="head">
-            <button type="button" class="register color_white bg_orange">立即注册</button>
-            <button type="button" class="try color_black">快速体验</button>
+            <button type="button" class="register color_white bg_orange">快速体验</button>
+            <!--<button type="button" class="try color_black">快速体验</button>-->
         </div>
         <div class="middle_box">
             <h3 class="middle_head">在线学<span class="underline">习功</span>能介绍</h3>
@@ -21,6 +36,23 @@
             </div>
         </div>
         <div class="learn_pro"></div>
+        <footer class="foot bg_black">
+            <div class="foot_middle clearfix">
+                <div class="foot_left">
+                    <span class="foot_title color_white">产品</span>
+                    <a class="foot_link color_gray" href="/examOnline/view/exam.html">在线考试</a>
+                    <a class="foot_link color_gray" href="/examOnline/view/learn.html">在线学习</a>
+                </div>
+                <div class="foot_right">
+                    <span class="foot_title color_white">客服信息</span>
+                    <span class="color_gray">电话：1234558</span>
+                    <span class="color_gray">地址：海淀区数码银座502</span>
+                </div>
+            </div>
+        </footer>
     </div>
+    <!-- js-->
+    <script src="../libs/jquery-3.1.1.min.js"></script>
+    <script src="../js/common.js"></script>
 </body>
 </html>

@@ -1,11 +1,11 @@
 @charset "utf-8";
 .head{
     width: 100%;
-    height: 570px;
+    height: 470px;
     background: url("../img/exam_head.png") center no-repeat;
     background-size: cover;
     text-align: center;
-    padding-top: 420px;
+    padding-top: 320px;
 }
 .register,.try{
     font-size: 20px;
@@ -26,10 +26,11 @@
 }
 .exam_middle_need{
     width: 100%;
-    height: 600px;
+    height: 700px;
     background: url("../img/exam_bg.png") center no-repeat;
     background-size: cover;
     text-align: center;
+    padding: 0 20px;
 }
 .exam_need_head{
     margin-top: 0;
@@ -38,4 +39,76 @@
 .underline{
     padding-bottom: 10px;
     border-bottom: 3px solid #ed670f;
+}
+.middle_icon{
+    width: 100%;
+    height: 229px;
+    margin-top: 40px;
+}
+.middle_icon_focus{
+    position: relative;
+    width: 178px;
+    height: 228px;
+    float: left;
+    z-index: 100;
+    margin: 2px;
+}
+/*.middle_icon_focus:hover{*/
+    /*background: url("../img/icon_border_03.png") center no-repeat;*/
+/*}*/
+.middle_icon_1,.middle_icon_2,.middle_icon_3,.middle_icon_4,.middle_icon_5,.middle_icon_6{
+    width: 165px;
+    height: 191px;
+    position: relative;
+    top: 9px;
+    left: 7px;
+}
+.middle_icon_1{
+    background: url("../img/exam_1.png") center no-repeat;
+}
+.middle_icon_2{
+    background: url("../img/exam_2.png") center no-repeat;
+}
+.middle_icon_3{
+    background: url("../img/exam_3.png") center no-repeat;
+}
+.middle_icon_4{
+    background: url("../img/exam_4.png") center no-repeat;
+}
+.middle_icon_5{
+     background: url("../img/exam_5.png") center no-repeat;
+}
+.middle_icon_6{
+    background: url("../img/exam_6.png") center no-repeat;
+}
+.middle_need_msg{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    border: 1px solid #ed670f;
+    text-align: left;
+    z-index: 99;
+}
+.middle_need_company{
+    display: inline-block;
+    width: 234px;
+    height: auto;
+    margin: 0 50px;
+    vertical-align: text-bottom;
+}
+.middle_need_box{
+    display: inline-block;
+    width: 60%;
+    height: 100%;
+}
+.middle_need_title{
+    margin: 30px 0;
+    text-align: center;
+}
+.middle_need_txt{
+    font-size: 20px;
+    text-align: left;
+    margin-left: 50px;
+    padding-top: 20px;
+
 }

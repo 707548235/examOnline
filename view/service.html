@@ -11,30 +11,68 @@
 </head>
 <body>
     <div class="container content">
+        <nav class="nav_bar">
+            <ul class="nav_ul">
+                <li><a href="/examOnline/view/connect.html" class="nav_link">关于我们</a></li>
+                <li><a href="/examOnline/view/service.html" class="nav_link">服务</a></li>
+                <li class="dropdown_li">
+                    <div><a href="javascript:void(0);" class="nav_link drop_link">产品</a></div>
+                    <ul class="project_menu bg_white">
+                        <li class=""><a class="color_black_2" href="/examOnline/view/exam.html">在线考试</a></li>
+                        <li class=""><a class="color_black_2" href="/examOnline/view/learn.html">在线学习</a></li>
+                    </ul>
+                </li>
+                <li><a href="/examOnline/index.html" class="nav_link">首页</a></li>
+            </ul>
+        </nav>
         <div class="head">
         </div>
-        <div class=" section">
+        <div class="section">
             <h2 >服<span class="underLine">务模</span>式</h2>
             <div class="middle_tab">
-                <div class="m_tab">
-                    <img src="../img/service_1.png">
-                    <h3 class="m_tab_title">产品租用</h3>
-                    <p class="m_tab_content">您可以按期付款租用产品，产品安装在...</p>
+                <div class="m_tab" id="m_tab_1">
+                    <div id="m_tab_1_out">
+                        <img src="../img/service_1.png">
+                        <h3 class="m_tab_title">产品租用</h3>
+                        <p class="m_tab_content">您可以按期付款租用产品，产品安装在...</p>
+                    </div>
+                    <div id="m_tab_1_in" >
+                        <h3 class="m_tab_title_in">产品租用</h3>
+                        <p class="m_tab_content">您可以按期付款租用产品，产品安装在您自己的服务器上，到期后续费即可继续使用。需要您安排专人维护系统和服务器。</p>
+                    </div>
                 </div>
-                <div class="m_tab">
-                    <img src="../img/service_2.png">
-                    <h3 class="m_tab_title">平台租用</h3>
-                    <p class="m_tab_content">即购即用，随时随地可学习考试，您不需...</p>
+                <div class="m_tab" id="m_tab_2">
+                    <div id="m_tab_2_out">
+                        <img src="../img/service_2.png">
+                        <h3 class="m_tab_title">平台租用</h3>
+                        <p class="m_tab_content">即购即用，随时随地可学习考试，您不需...</p>
+                    </div>
+                    <div id="m_tab_2_in" >
+                        <h3 class="m_tab_title_in">平台租用</h3>
+                        <p class="m_tab_content">即购即用，随时随地可学习考试，您不需要准备服务器，产品安装在阿里云计算平台上，我们负责维护和升级，您只需按期付款租用平台即可。</p>
+                    </div>
                 </div>
-                <div class="m_tab">
-                    <img src="../img/service_3.png">
-                    <h3 class="m_tab_title">产品购买</h3>
-                    <p class="m_tab_content">您可一次性支付产品费用，产品安装在...</p>
+                <div class="m_tab" id="m_tab_3">
+                    <div id="m_tab_3_out">
+                        <img src="../img/service_3.png">
+                        <h3 class="m_tab_title">产品购买</h3>
+                        <p class="m_tab_content">您可一次性支付产品费用，产品安装在...</p>
+                    </div>
+                    <div id="m_tab_3_in" >
+                        <h3 class="m_tab_title_in">产品购买</h3>
+                        <p class="m_tab_content">您可一次性支付产品费用，产品安装在您的服务器上或云服务器上，我们会远程帮您安装产品、及时解答您碰到的问题，产品终生免费升级。</p>
+                    </div>
                 </div>
-                <div class="m_tab">
-                    <img src="../img/service_4.png">
-                    <h3 class="m_tab_title">定制开发</h3>
-                    <p class="m_tab_content">您可以按自己的实际培训环境提出定制要求...</p>
+                <div class="m_tab" id="m_tab_4">
+                    <div id="m_tab_4_out">
+                        <img src="../img/service_4.png">
+                        <h3 class="m_tab_title">定制开发</h3>
+                        <p class="m_tab_content">您可以按自己的实际培训环境提出定制要求...</p>
+                    </div>
+                    <div id="m_tab_4_in" >
+                        <h3 class="m_tab_title_in">定制开发</h3>
+                        <p class="m_tab_content">您可以按自己的实际培训环境提出定制要求，我们会按定制流程，为您定制出独一无二的专属的培训系统，当然这需要一定的开发周期和研发费用。</p>
+                    </div>
                 </div>
             </div>
             <h2 >定<span class="underLine">制流</span>程</h2>
@@ -42,6 +80,24 @@
 
             </div>
         </div>
+        <footer class="foot bg_black">
+            <div class="foot_middle clearfix">
+                <div class="foot_left">
+                    <span class="foot_title color_white">产品</span>
+                    <a class="foot_link color_gray" href="/examOnline/view/exam.html">在线考试</a>
+                    <a class="foot_link color_gray" href="/examOnline/view/learn.html">在线学习</a>
+                </div>
+                <div class="foot_right">
+                    <span class="foot_title color_white">客服信息</span>
+                    <span class="color_gray">电话：1234558</span>
+                    <span class="color_gray">地址：海淀区数码银座502</span>
+                </div>
+            </div>
+        </footer>
     </div>
+    <!-- js-->
+    <script src="../libs/jquery-3.1.1.min.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/service.js"></script>
 </body>
 </html>

@@ -11,16 +11,65 @@
 </head>
 <body>
     <div class="container">
+        <nav class="nav_bar">
+            <ul class="nav_ul">
+                <li><a href="/examOnline/view/connect.html" class="nav_link">关于我们</a></li>
+                <li><a href="/examOnline/view/service.html" class="nav_link">服务</a></li>
+                <li class="dropdown_li"><a href="javascript:void(0);" class="nav_link drop_link">
+                    产品
+                </a>
+                    <ul class="project_menu bg_white">
+                        <li class=""><a class="color_black_2" href="/examOnline/view/exam.html">在线考试</a></li>
+                        <li class=""><a class="color_black_2" href="/examOnline/view/learn.html">在线学习</a></li>
+                    </ul>
+                </li>
+                <li><a href="/examOnline/index.html" class="nav_link">首页</a></li>
+            </ul>
+        </nav>
         <div class="head">
-            <button type="button" class="register color_white bg_orange">立即注册</button>
-            <button type="button" class="try color_black">快速体验</button>
+            <button type="button" class="register color_white bg_orange">快速体验</button>
+            <!--<button type="button" class="try color_black">快速体验</button>-->
         </div>
         <div class="middle">
             <h3 class="middle_head">在线考<span class="underline">试功</span>能介绍</h3>
         </div>
         <div class="exam_middle_need">
-            <h3 class="exam_need_head">不同场景<span class="underline">下的</span>考试需求</h3>
+            <h2 class="exam_need_head">不同场景<span class="underline">下的</span>考试需求</h2>
+            <div class="middle_icon clearfix">
+                <div class="middle_icon_focus" id="middle_icon_focus_1"><div class="middle_icon_1"></div></div>
+                <div class="middle_icon_focus" id="middle_icon_focus_2"><div class="middle_icon_2"></div></div>
+                <div class="middle_icon_focus" id="middle_icon_focus_3"><div class="middle_icon_3"></div></div>
+                <div class="middle_icon_focus" id="middle_icon_focus_4"><div class="middle_icon_4"></div></div>
+                <div class="middle_icon_focus" id="middle_icon_focus_5"><div class="middle_icon_5"></div></div>
+                <div class="middle_icon_focus" id="middle_icon_focus_6"><div class="middle_icon_6"></div></div>
+            </div>
+            <div class="middle_need_msg">
+                <img src="../img/exam_comp_1.png" class="middle_need_company">
+                <div class="middle_need_box">
+                    <h2 class="middle_need_title">“用在线考试系统做招聘笔试，省时省力！”</h2>
+                    <p class="middle_need_txt">面试前邀请在线学习并参加笔试，考后自动出成绩，快速完成职业技能初筛，有效节约 时间成本。
+                        考后分析更为招聘提供参考，人员招聘更精准，大大提高了初始效率。</p>
+                </div>
+            </div>
         </div>
+        <footer class="foot bg_black">
+            <div class="foot_middle clearfix">
+                <div class="foot_left">
+                    <span class="foot_title color_white">产品</span>
+                    <a class="foot_link color_gray" href="/examOnline/view/exam.html">在线考试</a>
+                    <a class="foot_link color_gray" href="/examOnline/view/learn.html">在线学习</a>
+                </div>
+                <div class="foot_right">
+                    <span class="foot_title color_white">客服信息</span>
+                    <span class="color_gray">电话：1234558</span>
+                    <span class="color_gray">地址：海淀区数码银座502</span>
+                </div>
+            </div>
+        </footer>
     </div>
+    <!-- js-->
+    <script src="../libs/jquery-3.1.1.min.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/exam.js"></script>
 </body>
 </html>
