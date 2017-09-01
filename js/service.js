@@ -8,8 +8,8 @@ $(function () {
             var tabOut = "#m_tab_"+i+"_out";
             var tabIn = "#m_tab_"+i+"_in";
             $(tab).hover(function () {
-                $(tabOut).hide();
-                $(tabIn).show();
+                    $(tabOut).hide();
+                    $(tabIn).show();
             }, function () {
                 $(tabOut).show();
                 $(tabIn).hide();

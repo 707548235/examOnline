@@ -2,16 +2,17 @@
 .head{
     width: 100%;
     height: 470px;
-    background: url("../img/connect_head.png") center no-repeat;
+    background: url("../img/index_head.png") center no-repeat;
     background-size: cover;
 }
 .head_title_box{
     height: 100%;
-    margin-left: 25%;
-    padding-top: 100px;
+    margin-left: 30%;
+    padding-top: 140px;
 }
 .head_title{
     margin-bottom: 30px;
+    letter-spacing: 3px;
 }
 .head_title_en{
     font-size: 20px;
@@ -22,8 +23,12 @@
     font-size: 18px;
     top: 120px;
 }
+.underLine{
+    padding-bottom: 10px;
+    border-bottom: 3px solid #ed670f;
+}
 .middle_content{
-    margin-top: 50px;
+    margin-top: 40px;
     text-align: center;
 }
 .m_content{
@@ -34,11 +39,14 @@
     margin: 30px 0;
     letter-spacing: 2px;
     line-height: 1.5em;
+    text-indent: 2em;
 }
 .map_content{
     width: 100%;
     height: 500px;
-    margin-top: 50px;
+    margin: 20px 0 80px;
+    text-align: center;
+    padding: 0 80px;
 }
 .map{
     width: 50%;
@@ -52,6 +60,33 @@
     height: 100%;
     background: rgba(0,104,183,0.5);
     padding: 50px 80px;
+}
+.map_new{
+    margin: 50px 0;
+}
+.map_msg{
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+}
+.map_msg_p{
+    color: #006fbd;
+    font-size: 18px;
+}
+.map_msg_sp{
+    color: #333;
+    font-size: 18px;
+}
+.tel{
+    margin-left: 80px;
+}
+.map_new_img{
+    width: 100%;
+    height: 400px;
+    background: url("../img/connect_map.png") center no-repeat;
+    background-size: cover;
+    border: 4px solid #FFFFFF;
+    margin-bottom: 100px;
 }
 .line{
     width: 80%;

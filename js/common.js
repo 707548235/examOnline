@@ -3,10 +3,10 @@
  */
 $(function () {
     $(".dropdown_li").hover(function () {
-        $(".drop_link").css({"color":"#0248c9","font-size":"18px"});
+        $(".drop_link").css({"color":"#ed670f","font-size":"20px"});
         $(".project_menu").show();
     }, function () {
-        $(".drop_link").css({"color":"#363636","font-size":"16px"});
+        $(".drop_link").css({"color":"#FFFFFF","font-size":"18px"});
         $(".project_menu").hide();
     });
 });

@@ -8,10 +8,11 @@
     padding-top: 320px;
 }
 .register,.try{
-    font-size: 20px;
-    padding: 5px 15px;
+    font-size: 16px;
+    padding: 6px 18px;
     border: 1px solid #ed670f;
     margin: 0 5px;
+    border-radius:2px;
 }
 .try{
     background: rgba(237,104,15,0);
@@ -22,7 +23,7 @@
     background: url("../img/exam_middle.png") center no-repeat;
     background-size: cover;
     text-align: center;
-    padding-top: 80px;
+    padding-top: 40px;
 }
 .exam_middle_need{
     width: 100%;
@@ -90,11 +91,13 @@
     z-index: 99;
 }
 .middle_need_company{
+    position: relative;
     display: inline-block;
     width: 234px;
     height: auto;
     margin: 0 50px;
-    vertical-align: text-bottom;
+    vertical-align: top;
+    top: 90px;
 }
 .middle_need_box{
     display: inline-block;

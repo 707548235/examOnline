@@ -3,6 +3,7 @@
 <head lang="en">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="考试系统 学习 作业 在线考试 自动阅卷 题库">
     <title>在线学习</title>
     <link href="../css/reset.css" rel="stylesheet">
     <link href="../libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -10,49 +11,98 @@
     <link href="../css/learn.css" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <nav class="nav_bar">
+    <div class="container content">
+        <nav class="nav_bar navbar-fixed-top">
             <ul class="nav_ul">
-                <li><a href="/examOnline/view/connect.html" class="nav_link">关于我们</a></li>
-                <li><a href="/examOnline/view/service.html" class="nav_link">服务</a></li>
+                <li><a href="connect.html" class="nav_link">关于我们</a></li>
+                <li><a href="service.html" class="nav_link">服务模式</a></li>
                 <li class="dropdown_li"><a href="javascript:void(0);" class="nav_link drop_link">
-                    产品
+                    产品中心
                 </a>
                     <ul class="project_menu bg_white">
-                        <li class=""><a class="color_black_2" href="/examOnline/view/exam.html">在线考试</a></li>
-                        <li class=""><a class="color_black_2" href="/examOnline/view/learn.html">在线学习</a></li>
+                        <li class=""><a class="color_black_2" href="exam.html">在线考试</a></li>
+                        <li class=""><a class="color_black_2" href="learn.html">在线学习</a></li>
                     </ul>
                 </li>
-                <li><a href="/examOnline/index.html" class="nav_link">首页</a></li>
+                <li><a href="../index.html" class="nav_link">首页</a></li>
             </ul>
         </nav>
         <div class="head">
-            <button type="button" class="register color_white bg_orange">快速体验</button>
+            <button type="button" class="register color_white bg_orange">免费试用</button>
             <!--<button type="button" class="try color_black">快速体验</button>-->
         </div>
         <div class="middle_box">
-            <h3 class="middle_head">在线学<span class="underline">习功</span>能介绍</h3>
-            <div class="learn_middle">
+            <h2 class="middle_head">在线学<span class="underline">习功</span>能介绍</h2>
+            <div class="learn_middle ">
+                <div class="learn_middle_item">
+                    <div class="l_m_icon">
+                        <img src="../img/learn_m_1.png">
+                    </div>
+                    <h3>学习计划</h3>
+                    <div class="l_m_span_box">
+                        <span class="l_m_span">指定人群</span><span class="l_m_span">指定时间</span>
+                    </div>
+                    <div>
+                        <span class="l_m_span">指定课程</span><span class="l_m_span">指定标准</span>
+                    </div>
+                </div>
+                <div class="learn_middle_item">
+                    <div class="l_m_icon">
+                        <img src="../img/learn_m_2.png">
+                    </div>
+                    <h3>在线学习</h3>
+                    <div class="l_m_span_box">
+                        <span class="l_m_span">视频学习</span><span class="l_m_span">scrom学习</span>
+                    </div>
+                    <div>
+                        <span class="l_m_span">文档学习</span><span class="l_m_span">Flash学习</span>
+                    </div>
+                </div>
+                <div class="learn_middle_item">
+                    <div class="l_m_icon">
+                        <img src="../img/learn_m_3.png">
+                    </div>
+                    <h3>督学监控</h3>
+                    <div class="l_m_span_box">
+                        <span class="l_m_span">登录监控</span><span class="l_m_span">学习监控</span>
+                    </div>
+                    <div>
+                        <span class="l_m_span">学员作弊</span><span class="l_m_span">监控拦截</span>
+                    </div>
+                </div>
+                <div class="learn_middle_item">
+                    <div class="l_m_icon">
+                        <img src="../img/learn_m_4.png">
+                    </div>
+                    <h3>学习计划</h3>
+                    <div class="l_m_span_box">
+                        <span class="l_m_span">问卷体系</span><span class="l_m_span">学分体系</span>
+                    </div>
+                    <div>
+                        <span class="l_m_span">学习互动</span><span class="l_m_span">学习笔记</span>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="learn_pro"></div>
         <footer class="foot bg_black">
-            <div class="foot_middle clearfix">
-                <div class="foot_left">
-                    <span class="foot_title color_white">产品</span>
-                    <a class="foot_link color_gray" href="/examOnline/view/exam.html">在线考试</a>
-                    <a class="foot_link color_gray" href="/examOnline/view/learn.html">在线学习</a>
-                </div>
-                <div class="foot_right">
-                    <span class="foot_title color_white">客服信息</span>
-                    <span class="color_gray">电话：1234558</span>
-                    <span class="color_gray">地址：海淀区数码银座502</span>
-                </div>
+            <div class="footer_left_box">
+                <ul class="footer_ul clearfix">
+                    <li class="footer_li"><a href="../index.html">首页</a></li>
+                    <li class="footer_li"><a href="../view/exam.html">产品中心</a></li>
+                    <li class="footer_li"><a href="../view/service.html">服务模式</a></li>
+                    <li class="footer_li"><a href="../view/connect.html">关于我们</a></li>
+                </ul>
+            </div>
+            <div class="footer_right_box">
+                <span class="color_white tel">客服电话：80448852</span>
+                <span class="color_gray address">地址：海淀区数码银座502</span>
             </div>
         </footer>
     </div>
     <!-- js-->
     <script src="../libs/jquery-3.1.1.min.js"></script>
     <script src="../js/common.js"></script>
+    <script src="../js/learn.js"></script>
 </body>
 </html>
