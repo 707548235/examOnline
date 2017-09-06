@@ -11,6 +11,12 @@
 .color_black_2{
    color:#363636;
 }
+.color_black_3{
+    color: #333333;
+}
+.color_black_4{
+    color: #4a4a4a;
+}
 .color_gray{
     color:#78797a;
 }
@@ -37,6 +43,10 @@
 }
 .bg_black{
     background:#24282c;
+}
+.bg_alpha{
+    background: rgba(255,255,255,0.7);
+    background-size: cover;
 }
 /**/
 .content{

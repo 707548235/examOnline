@@ -8,12 +8,15 @@ $(function () {
             var tabOut = "#m_tab_"+i+"_out";
             var tabIn = "#m_tab_"+i+"_in";
             $(tab).hover(function () {
-                    $(tabOut).hide();
-                    $(tabIn).show();
+                $(tabOut).hide();
+                $(tabIn).show();
+                $(tabIn).css({'background':'#09a5ff','color':'white'});
+                $(tabIn).addClass('animated fadeInUp');
             }, function () {
                 $(tabOut).show();
                 $(tabIn).hide();
             });
         })(i);
     }
+
 });

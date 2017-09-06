@@ -15,3 +15,5 @@ $(function () {
         window.location.href = "http://42.236.73.28:8981/index.php";
     });
 });
+
+

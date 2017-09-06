@@ -34,7 +34,7 @@
 .register,.try{
     border: 1px solid #ed670f;
     font-size: 16px;
-    padding: 6px 18px;
+    padding: 10px 59px;
     margin: 0 5px;
     border-radius: 2px;
 }
@@ -84,30 +84,34 @@
     border: 1px solid #ed670f;
     margin: 0 5px;
 }
-.home_1,.home_2,.home_3,.home_5{
-    width: 100%;
-    height: 462px;
-}
 .home_1{
+    width: 100%;
+    height: 470px;
     background: url("../img/home_1.png") center no-repeat;
     background-size: cover;
 }
 .home_2{
+    width: 100%;
+    height: 484px;
     background: url("../img/home_2.png") center no-repeat;
     background-size: cover;
 }
 .home_3{
+    width: 100%;
+    height: 480px;
     background: url("../img/home_3.png") center no-repeat;
     background-size: cover;
 }
 .home_4{
     width: 100%;
-    height: 470px;
+    height: 510px;
     background: url("../img/home_4.png") center no-repeat;
     background-size: cover;
     margin-bottom: 20px;
 }
 .home_5{
+    width: 100%;
+    height: 449px;
     background: url("../img/home_5.png") center no-repeat;
     background-size: cover;
 }
@@ -117,7 +121,7 @@
     background-color: #ed670f;
     color: #FFFFFF;
     font-size: 16px;
-    padding: 6px 15px;
+    padding: 10px 36px;
     position: relative;
     top: 300px;
     left: 170px;

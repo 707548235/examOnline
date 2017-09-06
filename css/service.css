@@ -8,7 +8,7 @@
 }
 .section{
     text-align: center;
-    margin-top: 40px;
+    margin-top: 50px;
     margin-bottom: 70px;
 }
 .section h2{
@@ -17,7 +17,7 @@
 }
 .underLine{
     padding-bottom: 10px;
-    border-bottom: 3px solid #ed670f;
+    border-bottom: 2px solid #ed670f;
 }
 .middle_tab{
     margin-top: 50px;
@@ -25,30 +25,52 @@
     background: url("../img/service_middle_bg.png");
     background-size: cover;
     padding:0 50px;
-    overflow: auto;
+    overflow: hidden;
 }
 .m_tab{
     width: 23%;
     height: 306px;
     background: rgba(255,255,255,0.7);
     background-size: cover;
-    padding: 40px 20px;
     float: left;
     margin: 5px 10px;
 }
+.m_tab img{
+    width: 66px;
+    height: 63px;
+}
 .m_tab_title{
-    margin-top: 50px;
+    margin-top: 36px;
+    font-weight: 200;
+    font-size: 22px;
+    color: #333;
 }
 .m_tab_title_in{
     margin-top: 0px;
+    font-weight: 200;
 }
 .m_tab_content{
+    margin-top: 20px;
     font-size: 16px;
+    line-height: 1.75em;
+    text-align: center;
+    color: #4a4a4a;
+}
+.m_tab_content_in{
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 1.75em;
+    text-align: left;
+}
+#m_tab_1_out,#m_tab_2_out,#m_tab_3_out,#m_tab_4_out{
+    height: 306px;
+    padding: 50px 20px;
 }
 #m_tab_1_in,#m_tab_2_in,#m_tab_3_in,#m_tab_4_in{
+    height: 306px;
     display: none;
     vertical-align: top;
-    padding: 10px 20px;
+    padding: 50px 20px;
 }
 .flow{
     max-width: 100%;
@@ -71,20 +93,20 @@
         -o-transform: rotateY(0deg);
         transform: rotateY(0deg);}
 }
-.m_tab:hover{
-    -webkit-animation: rotate 1s;
-    -o-animation: rotate 1s;
-    animation: rotate 1s;
-    -webkit-animation-delay: 0s;
-    -moz-animation-delay: 0s;
-    -o-animation-delay: 0s;
-    animation-delay: 0s;
-    -webkit-animation-timing-function: ease-in-out;
-    -moz-animation-timing-function: ease-in-out;
-    -o-animation-timing-function: ease-in-out;
-    animation-timing-function: ease-in-out;
-    -webkit-animation-fill-mode: backwards;
-    -moz-animation-fill-mode: backwards;
-    -o-animation-fill-mode: backwards;
-    animation-fill-mode: backwards;
-}
+/*.m_tab:hover{*/
+    /*-webkit-animation: rotate 1s;*/
+    /*-o-animation: rotate 1s;*/
+    /*animation: rotate 1s;*/
+    /*-webkit-animation-delay: 0s;*/
+    /*-moz-animation-delay: 0s;*/
+    /*-o-animation-delay: 0s;*/
+    /*animation-delay: 0s;*/
+    /*-webkit-animation-timing-function: ease-in-out;*/
+    /*-moz-animation-timing-function: ease-in-out;*/
+    /*-o-animation-timing-function: ease-in-out;*/
+    /*animation-timing-function: ease-in-out;*/
+    /*-webkit-animation-fill-mode: backwards;*/
+    /*-moz-animation-fill-mode: backwards;*/
+    /*-o-animation-fill-mode: backwards;*/
+    /*animation-fill-mode: backwards;*/
+/*}*/

@@ -5,25 +5,37 @@
     background: url("../img/exam_head.png") center no-repeat;
     background-size: cover;
     text-align: center;
-    padding-top: 320px;
+    padding-top: 100px;
+    letter-spacing: 3px;
+    position: relative;
+}
+.head_1{
+
+}
+.head_2{
+    margin-top: 40px;
 }
 .register,.try{
     font-size: 16px;
-    padding: 6px 18px;
+    padding: 10px 59px;
     border: 1px solid #ed670f;
-    margin: 0 5px;
+    margin: 100px 5px 0;
     border-radius:2px;
 }
 .try{
     background: rgba(237,104,15,0);
 }
+.middle_head{
+    text-align: center;
+    margin-top: 50px;
+}
 .middle{
     width: 100%;
-    height: 770px;
+    height: 580px;
     background: url("../img/exam_middle.png") center no-repeat;
     background-size: cover;
     text-align: center;
-    padding-top: 40px;
+    margin-top: 50px;
 }
 .exam_middle_need{
     width: 100%;
@@ -31,7 +43,7 @@
     background: url("../img/exam_bg.png") center no-repeat;
     background-size: cover;
     text-align: center;
-    padding: 0 20px;
+    padding: 0 80px;
 }
 .exam_need_head{
     margin-top: 0;
@@ -39,17 +51,17 @@
 }
 .underline{
     padding-bottom: 10px;
-    border-bottom: 3px solid #ed670f;
+    border-bottom: 2px solid #ed670f;
 }
 .middle_icon{
     width: 100%;
     height: 229px;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 .middle_icon_focus{
     position: relative;
-    width: 178px;
-    height: 228px;
+    width: 16%;
+    height: 232px;
     float: left;
     z-index: 100;
     margin: 2px;
@@ -62,7 +74,7 @@
     height: 191px;
     position: relative;
     top: 9px;
-    left: 7px;
+    left: -1px;
 }
 .middle_icon_1{
     background: url("../img/exam_1.png") center no-repeat;
@@ -89,6 +101,7 @@
     border: 1px solid #ed670f;
     text-align: left;
     z-index: 99;
+    top: -15px;
 }
 .middle_need_company{
     position: relative;
@@ -103,15 +116,17 @@
     display: inline-block;
     width: 60%;
     height: 100%;
+    text-align: left;
 }
 .middle_need_title{
-    margin: 30px 0;
-    text-align: center;
+    margin: 60px 0 30px 0;
+    text-align: left;
+    color: #333;
 }
 .middle_need_txt{
-    font-size: 20px;
+    font-size: 18px;
     text-align: left;
-    margin-left: 50px;
-    padding-top: 20px;
-
+    margin-left: 5px;
+    color: #4a4a4a;
+    line-height: 1.8em;
 }
